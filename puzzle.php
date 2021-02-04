@@ -39,6 +39,10 @@
                             if ($userAnswer == 'Замок' || $userAnswer == 'замок') {
                                 $score++;
                             }
+
+	                        if ($userAnswer == 'Лук' || $userAnswer == 'лук') {
+		                        $score++;
+	                        }
                             echo 'Вы угадали ' . $score . ' загадок';
                         }
                     ?>
@@ -50,6 +54,8 @@
                     <p> Два кольца, два конца и по середине гвоздик?</p>
                         <input type="text" name="userAnswer2">
                     <p>Не лает, не кусает, но в дом не пускает?</p>
+                        <input type="text" name="userAnswer3">
+                    <p>Сидит дед во сто шуб одет, кто его раздевает тот слезы проливает.</p>
                         <input type="text" name="userAnswer3">
 
                         <br>

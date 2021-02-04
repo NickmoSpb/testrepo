@@ -1,13 +1,11 @@
+<?php include ('modules.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Личный сайт учящегося у Пахана</title>
 	<link rel="stylesheet" href="style.css">
-
-
-
-
 </head>
 <body>
 
